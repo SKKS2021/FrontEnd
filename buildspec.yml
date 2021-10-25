@@ -8,7 +8,7 @@ phases:
       - npm install
   pre_build:
     commands:
-      - printenv > .env
+      - echo Entered the pre_build phase...
   build:
     commands:
       - echo Compiling the Node.js code
